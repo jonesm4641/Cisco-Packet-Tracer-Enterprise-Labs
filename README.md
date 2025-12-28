@@ -32,3 +32,42 @@ The goal of this repository is to showcase practical skills in network design, c
 
 ## Repository Structure
 
+Cisco-PT-Networking-Labs/
+├── labs/
+│ ├── lab-01-basic-topology/
+│ ├── lab-02-vlan-trunking/
+│ └── lab-03-routing/
+├── diagrams/
+├── notes/
+└── README.md
+
+yaml
+Copy code
+
+Each lab directory may include:
+- Packet Tracer (.pkt) files
+- Configuration notes
+- Validation steps
+- Troubleshooting observations
+
+---
+
+## Tools Used
+
+- Cisco Packet Tracer
+- Cisco IOS-style CLI
+- Markdown documentation
+
+---
+
+## Notes
+
+- Labs are built for learning and demonstration purposes.
+- Configurations are validated in a lab environment, not production.
+- Documentation improves over time as skills develop.
+
+---
+
+## Status
+
+This repository is **actively maintained** as part of ongoing networking studies.

@@ -1,54 +1,66 @@
-# Cisco Packet Tracer Networking Labs
+# Cisco Packet Tracer Enterprise Labs
 
-This repository contains hands-on networking labs built using **Cisco Packet Tracer** to demonstrate foundational and intermediate networking concepts.
+This repository contains a structured series of **Cisco Packet Tracer labs** designed to demonstrate practical networking skills from beginner through advanced levels.
 
-The goal of this repository is to showcase practical skills in network design, configuration, troubleshooting, and validation using Cisco-style workflows.
+The labs build progressively, simulating the evolution of a small network into a hardened, enterprise-style environment with routing, security controls, and high availability.
 
 ---
 
 ## Objectives
 
-- Practice core networking concepts using Packet Tracer
-- Reinforce theory through hands-on configuration
-- Develop structured troubleshooting and validation habits
-- Build a public portfolio of networking labs
+- Build a strong foundation in Cisco networking concepts
+- Apply routing, switching, and security configurations hands-on
+- Practice validation and troubleshooting techniques
+- Showcase real-world networking workflows in a public portfolio
 
 ---
 
-## Lab Topics (Planned & In Progress)
+## Lab Progression
 
-- Network fundamentals (OSI, TCP/IP, cabling)
-- IP addressing and subnetting
-- VLANs and trunking
-- Inter-VLAN routing
-- Static routing
-- Dynamic routing (RIP, OSPF basics)
-- DHCP and DNS concepts
-- NAT
-- ACL fundamentals
-- Basic network troubleshooting
+### Phase 1 — Network Foundations
+- VLAN segmentation and Layer 2 switching
+- Inter-VLAN routing using router-on-a-stick
+- Centralized DHCP services across VLANs
+
+### Phase 2 — Routing & Perimeter
+- Dynamic routing with OSPF (single area)
+- NAT/PAT for enterprise edge connectivity
+- ACL-based east-west and north-south traffic control
+
+### Phase 3 — Security & Resilience
+- Layer 2 switch security hardening
+- Site-to-site IPsec VPN connectivity
+- High availability gateway design using HSRP
+
+### Phase 4 — Capstone
+- Enterprise mini-campus network integrating routing, security, and hardening
 
 ---
 
 ## Repository Structure
 
-Cisco-PT-Networking-Labs/
-├── labs/
-│ ├── lab-01-basic-topology/
-│ ├── lab-02-vlan-trunking/
-│ └── lab-03-routing/
-├── diagrams/
-├── notes/
+Cisco-Packet-Tracer-Enterprise-Labs/
+├── Lab01_VLAN_Segmentation/
+├── Lab02_InterVLAN_Routing/
+├── Lab03_DHCP_Services/
+├── Lab04_OSPF_Routing/
+├── Lab05_NAT_PAT/
+├── Lab06_ACL_Traffic_Control/
+├── Lab07_Switch_Security/
+├── Lab08_Site_to_Site_VPN/
+├── Lab09_HSRP_High_Availability/
+├── Lab10_Enterprise_Capstone/
 └── README.md
 
 yaml
 Copy code
 
-Each lab directory may include:
+Each lab folder may include:
 - Packet Tracer (.pkt) files
-- Configuration notes
+- Configuration commands
 - Validation steps
-- Troubleshooting observations
+- Topology diagrams
+- Troubleshooting notes
 
 ---
 
@@ -62,12 +74,12 @@ Each lab directory may include:
 
 ## Notes
 
-- Labs are built for learning and demonstration purposes.
-- Configurations are validated in a lab environment, not production.
-- Documentation improves over time as skills develop.
+- All labs are built and validated in a lab environment
+- Configurations are for educational and demonstration purposes
+- Documentation improves as labs progress
 
 ---
 
 ## Status
 
-This repository is **actively maintained** as part of ongoing networking studies.
+This repository is actively maintained as part of ongoing networking studies.
